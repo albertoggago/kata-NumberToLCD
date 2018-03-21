@@ -16,7 +16,7 @@ def num(s):
     try:
         return int(s)
     except ValueError:
-        return float(s)
+        return 0
 
 def getLineEachChars(number,chars):
     listNumbers = [int(num) for num in str(number)]
